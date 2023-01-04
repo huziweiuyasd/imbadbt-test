@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: order_products_prior
+    columns:
+      - name: EVAL_SET
+        tests:
+          - accepted_values:
+              values:
+                - 'prior'
+      - name: EVAL_SET
+        tests:
+          - not_null
