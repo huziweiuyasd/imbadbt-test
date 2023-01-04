@@ -3,4 +3,4 @@
         materialized='table'
     )
 }}
-select * from imba1.imba2.products
+select * from {{ source('IMBAS', 'products') }}

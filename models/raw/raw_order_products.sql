@@ -5,4 +5,4 @@
 }}
 
 
-select * from imba1.imba2.order_products
+select * from {{ source('IMBAS', 'order_products') }}

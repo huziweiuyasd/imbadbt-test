@@ -1,0 +1,11 @@
+version: 2
+sources:
+    - name: IMBAS
+      database: IMBA1
+      schema: IMBA2
+      tables:
+        - name: order_products
+        - name: orders
+        - name: departments
+        - name: aisles
+        - name: products
