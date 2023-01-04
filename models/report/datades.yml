@@ -1,0 +1,8 @@
+version: 2
+
+models:
+  - name: data
+    description: data table is for ML learning
+    columns:
+      - name: UP_FIRST_ORDER
+        description: user's first order in system
