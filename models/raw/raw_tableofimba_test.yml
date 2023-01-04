@@ -1,0 +1,15 @@
+version: 2
+
+models:
+  - name: raw_departments
+    columns:
+      - name: department_id
+        tests:
+          - unique
+          - not_null
+  - name: raw_products
+    columns:
+      - name: product_id
+        tests: 
+          - unique
+          - not_null
